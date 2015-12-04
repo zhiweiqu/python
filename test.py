@@ -1,2 +1,4 @@
-name = input("please enter a name: ")
-print(name)
+sum = 0
+for a in range(101):
+    sum = sum + a
+print(sum)
