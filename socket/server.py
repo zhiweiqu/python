@@ -11,6 +11,6 @@ while True:
             connection.send('welcome to server!')  
         else:  
             connection.send('please go out!')  
-    except socket.timeout:  
-        print 'time out'  
+    except socket.timeout:
+        print('time out')
     connection.close()  
